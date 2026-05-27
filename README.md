@@ -1,8 +1,23 @@
-# Imbalanced Product Feedback Classifier
+<div align="center">
 
-COMP9417 group project: multiclass classification of customer product feedback into **28 departments** using **300 NLP features**, with strong class imbalance (minority classes as small as ~6 samples).
+## Imbalanced Product Feedback Classification
 
-This repository is organised as a small portfolio project: it includes the full training code, core course dataset, and scripts to reproduce the main experiments (baseline, resampling, ensembles).
+Multiclass NLP-style classification of customer feedback into **28 departments** with **300 features**, tackling extreme class imbalance with **resampling + cost-sensitive optimisation + ensembles**.
+
+**Tech stack**: Python · scikit-learn · imbalanced-learn · LightGBM · XGBoost
+
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![imbalanced-learn](https://img.shields.io/badge/imbalanced--learn-resampling-2C5AA0)](https://imbalanced-learn.org/)
+[![LightGBM](https://img.shields.io/badge/LightGBM-GBDT-02569B)](https://lightgbm.readthedocs.io/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-boosting-EC4E20)](https://xgboost.readthedocs.io/)
+[![Course](https://img.shields.io/badge/UNSW-COMP9417-111827)](https://www.unsw.edu.au/)
+
+Repo: `github.com/davinagreen/Imbalanced-product-feedback-classifier`
+
+</div>
+
+This repository is organised as a small portfolio project: it includes the training code, course dataset CSVs, and scripts to reproduce the main experiments (baseline, resampling, ensembles).
 
 ## Approach
 
