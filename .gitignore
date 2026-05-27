@@ -9,8 +9,7 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data & model artifacts (place files in data/ locally)
-data/*.csv
+# Data & model artifacts
 data/*.pkl
 data/*.npy
 data/cache_dir/
